@@ -1,9 +1,10 @@
 import React from 'react'
+import './Card.css'
 
-const Card = () => {
+const Card = (props) => {
     return (
-        <div>
-            
+        <div className="card-container">
+            <h1>{props.monster.name}</h1>
         </div>
     )
 }
